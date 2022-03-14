@@ -12,5 +12,6 @@ COPY yolo5 /yolo5
 # COPY main.py main.py
 RUN pip3 install -r /yolo5/requirements.txt
 RUN pip install uvicorn fastapi python-multipart
+COPY Arial.ttf /root/.config/Ultralytics/Arial.ttf
 # CMD ["python", "main.py"]
 
