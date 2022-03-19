@@ -2,9 +2,9 @@ name: Publish Docker image
 
 on:
   push:
-    branches: [ master ]
+    branches: [ cuda113 ]
   pull_request:
-    branches: [ master ]
+    branches: [ cuda113 ]
 
 jobs:
   push_to_registry:
